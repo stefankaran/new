@@ -1,0 +1,23 @@
+.w-nav {
+  &__items {
+    display: table;
+    width: 100%;
+    padding: 0 1%;
+  }
+  &__item {
+    display: inline-block;
+    line-height: 30px;
+    padding: 0 1%;
+    cursor: pointer;
+    background: gray;
+    &:hover {
+      .w-drop-menu {
+        max-height: 100%;
+      }
+    }
+  }
+  &__link {
+    height: 100%;
+    display: block;
+  }
+}

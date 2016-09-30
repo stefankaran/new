@@ -1,0 +1,19 @@
+.w-pagination {
+  &__row {
+    display: table;
+    width: 100%;
+    overflow: hidden;
+    // text-align: center;
+  }
+  &__item {
+    display: inline-block;
+    background-color: #ccc;
+    &:not(:last-child) {
+      margin-right: 5px;
+    }
+  }
+  &__link {
+    padding: 5px 10px;
+    display: block;
+  }
+}

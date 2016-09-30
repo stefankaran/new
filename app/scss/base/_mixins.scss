@@ -1,0 +1,7 @@
+//----- Example... @include vendor-prefixes(border-radius, 50%);
+@mixin vendor-prefixes($name, $argument) {
+	@each $property in $vendor-prefixes {
+		//----- $vendor-prefixes defined in _variables.scss
+		#{$property}#{$name}: #{$argument};
+	}
+}

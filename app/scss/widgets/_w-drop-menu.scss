@@ -1,0 +1,25 @@
+.w-drop-menu {
+  max-height: 0;
+  overflow: hidden;
+  position: absolute;
+  width: 100%;
+  left: 0;
+  cursor: auto;
+  @include vendor-prefixes(transition, all .5s);
+  &__row {
+    overflow: hidden;
+  }
+  &__column {
+    width: percentage(1/4);
+    @extend %first-last;
+    // @extend %hide-on--mobile;
+    padding: 0 2%;
+  }
+  &__item {}
+  &__link {
+    float: left;
+    clear: both;
+  }
+  &__media {}
+  &__heading {}
+}

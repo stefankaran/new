@@ -1,0 +1,8 @@
+//----- Calc px to rem
+@function cr($target) {
+  @return ($target / $base__font-size) * 1rem;
+}
+//----- Calc px to percentage
+@function cp($target, $container) {
+  @return ($target / $container) * 100%;
+}

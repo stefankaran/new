@@ -1,0 +1,19 @@
+.w-search {
+  display: inline-block;
+  // width: ;
+  input {
+    border: none;
+    padding: 7px;
+    font-size: cr(16px);
+  }
+  &__form {
+    border: 1px solid #ccc;
+    overflow: hidden;
+  }
+  &__input {}
+  &__button {
+    float: right;
+    cursor: pointer;
+    background: #ccc;
+  }
+}

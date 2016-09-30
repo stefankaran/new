@@ -1,0 +1,30 @@
+html {}
+body {}
+%wrapper {
+  display: block;
+  overflow: hidden;
+  width: 100%;
+}
+.l-wrapper {
+  @extend %wrapper;
+  @extend %center-block;
+  max-width: 1000px;
+  &__page {
+    @extend %wrapper;
+    padding: 0 1%;
+    &--full {
+      @extend %wrapper;
+    }
+  }
+}
+.l-col {
+  float: left;
+  &__main {
+    @extend .l-col;
+    width: percentage(2/3);
+  }
+  &__sidebar {
+    @extend .l-col;
+    width: percentage(1/3);
+  }
+}
