@@ -1,0 +1,12 @@
+//----- Variables / Typography
+
+// Font size
+$font-size--base: 16px;
+// Line height
+$line-height-base: $font-size--base * 1.125;
+
+// Font family
+$font-family-default       : Arial, Helvetica, Tahoma, sans-serif;
+$font-family-base          : "", $font-family-default;
+$font-family-base--bold    : "", $font-family-default;
+$font-family-base--italic  : "", $font-family-default;

@@ -1,0 +1,6 @@
+//----- Functions / Calc px to em
+// First par is px
+// Second is his or parents font size
+@function ce($target, $font-size) {
+  @return ($target / $font-size) * 1em;
+}

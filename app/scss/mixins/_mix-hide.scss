@@ -1,0 +1,8 @@
+//----- Mixin / Hide element on specific device
+//----- Shortcuts to hide element on specific device
+//----- Example @include hide(mobile);
+@mixin hide($device) {
+  @include bp($device) {
+    display: none;
+  }
+}

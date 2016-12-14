@@ -1,3 +1,4 @@
+//----- Dropdown menu
 .w-drop-menu {
   max-height: 0;
   overflow: hidden;
@@ -11,7 +12,7 @@
   }
   &__column {
     width: percentage(1/4);
-    @extend %first-last;
+    @include first-last(padding-margin);
     // @extend %hide-on--mobile;
     padding: 0 2%;
   }

@@ -28,9 +28,9 @@ package.json
 app/bower.json
 app/bower_components/
 #app/assets/
-app/assets/css/main.css
-app/assets/js/main.js
-app/js/
+#app/assets/css/main.css
+#app/assets/js/main.js
+#app/js/
 .sass-cache
 *.css.map
 # build/

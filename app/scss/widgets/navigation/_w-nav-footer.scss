@@ -1,0 +1,13 @@
+//----- Navigation / style only for footer nav
+.w-nav-footer {
+  // @extend .w-nav;
+  &__items {
+    @extend .w-nav__items;
+  }
+  &__item {
+    @extend .w-nav__item;
+  }
+  &__link {
+    @extend .w-nav__link;
+  }
+}

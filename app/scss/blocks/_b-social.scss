@@ -1,23 +1,15 @@
+//----- Social
 .b-social {
-  &__item {
-    display: inline-block;
+  @each $s in $socials {
+    &--#{$s} { // Same style for every social item
+      display: inline-block;
+    }
   }
-  &__facebook {
-    @extend .b-social__item;
-  }
-  &__twitter {
-    @extend .b-social__item;
-  }
-  &__instagram {
-    @extend .b-social__item;
-  }
-  &__google-plus {
-    @extend .b-social__item;
-  }
-  &__pinterest {
-    @extend .b-social__item;
-  }
-  &__whatsapp {
-    @extend .b-social__item;
-  }
+  &--facebook {}
+  &--twitter {}
+  &--instagram {}
+  &--google-plus {}
+  &--pinterest {}
+  &--telegram {}
+  &--whatsapp {}
 }

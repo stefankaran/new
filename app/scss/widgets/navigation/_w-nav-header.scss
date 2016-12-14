@@ -1,0 +1,13 @@
+//----- Navigation / style only for header nav
+.w-nav-header {
+  // @extend .w-nav;
+  &__items {
+    @extend .w-nav__items;
+  }
+  &__item {
+    @extend .w-nav__item;
+  }
+  &__link {
+    @extend .w-nav__link;
+  }
+}

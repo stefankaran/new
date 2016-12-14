@@ -1,0 +1,17 @@
+//----- Icons
+// @each $icon in $icons {
+//   .icon--#{$icon} {
+//     background-image: url("#{$path-images}/#{$icon}.png");
+//     @extend .icon;
+//   }
+//   .#{$icon} {
+//     @extend .icon--#{$icon};
+//   }
+// }
+.icon {
+  background: {
+    position: center;
+    repeat: no-repeat;
+    size: contain;
+  }
+}

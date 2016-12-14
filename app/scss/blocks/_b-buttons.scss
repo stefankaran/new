@@ -1,6 +1,10 @@
+//----- Buttons
 %button {
   text-align: center;
   cursor: pointer;
   outline: none;
   -webkit-appearance: none;
+}
+[class^="btn--"], [class*=" btn--"] {
+  @extend %button;
 }

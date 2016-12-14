@@ -1,0 +1,10 @@
+.b-hero {
+  display: block;
+  position: relative;
+  &__image {}
+  &__headline {
+    position: absolute;
+    top: 5%;
+    left: 5%;
+  }
+}

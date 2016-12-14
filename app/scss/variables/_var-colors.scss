@@ -1,0 +1,26 @@
+//----- Variables / Colors
+$colors: (
+  black         : #000,
+  white         : #fff,
+
+  brand: ( //----- Brand colors
+    primary     : black,
+    secondary   : white
+  ),
+  link: ( //----- Link colors
+    text        : black,
+    text-hover  : white
+  ),
+  text: ( //----- Text colors
+    primary     : black,
+    secondary   : white
+  ),
+  border: ( //----- Border colors
+    primary     : black,
+    secondary   : white
+  ),
+  error: ( //----- Error colors
+    background  : black,
+    text        : white
+  )
+);

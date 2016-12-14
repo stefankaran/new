@@ -1,3 +1,4 @@
+//----- Pagination(s)
 .w-pagination {
   &__row {
     display: table;
@@ -10,6 +11,9 @@
     background-color: #ccc;
     &:not(:last-child) {
       margin-right: 5px;
+    }
+    &.current {
+      background-color: red;
     }
   }
   &__link {

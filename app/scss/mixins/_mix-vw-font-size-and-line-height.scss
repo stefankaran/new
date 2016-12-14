@@ -1,0 +1,19 @@
+//----- Mixin / Set font-size and line-height in vw on specific resolution
+// cvw(); => _func-calc-vw.scss
+// Set $max-width variable in _var-vw-max-resolutions.scss
+
+// Example...
+// font-size: 20px; // => font-size after $end-vw
+// @include bp(end-vw) { // => font-size for max width like as on design
+//   @include fs-lh(20px, 26px, $end-vw);
+// }
+// @include bp(tablet) {
+//   @include fs-lh(30px, 36px, $tabletLandscape);
+// }
+// @include bp(mobile) {
+//   @include fs-lh(40px, 46px, $tabletLandscape);
+// }
+@mixin fs-lh($font-size, $line-height, $max-width) {
+  font-size: cvw($font-size, $max-width);
+  line-height: cvw($line-height, $max-width);
+}

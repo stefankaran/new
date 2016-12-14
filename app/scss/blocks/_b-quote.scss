@@ -1,0 +1,12 @@
+.b-quote {
+  font-style: italic;
+  border-left: 1px solid #808080;
+  color: #808080;
+  padding-left: 1em;
+  margin-bottom: 1em;
+  &__text {}
+  &__cite {
+    display: inline-block;
+    margin-top: 10px;
+  }
+}

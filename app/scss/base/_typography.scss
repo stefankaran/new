@@ -1,3 +1,8 @@
+//----- Typography
+// @include font-face(Folder-Name, #{$path-fonts}/Folder-Name);
 html {
-  font-size: $base__font-size;
+  font-size: $font-size--base;
+}
+body {
+  font-family: $font-family-base;
 }
