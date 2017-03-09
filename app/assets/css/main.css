@@ -173,7 +173,7 @@ html {
 body {
   font-family: "", Arial, Helvetica, Tahoma, sans-serif; }
 
-.l-wrap, .l-wrap--site, .l-wrap--page {
+.l-wrap, .l-wrap--site, .l-wrap--page, .w-slider {
   display: block;
   margin-left: auto;
   margin-right: auto; }
@@ -243,21 +243,21 @@ body {
     display: inline-block;
     margin-top: 10px; }
 
-.w-nav__items, .w-nav-header__items, .w-nav-footer__items {
+.w-nav__items, .w-nav--header__items, .w-nav--footer__items {
   display: table;
   width: 100%;
   padding: 0 1%; }
 
-.w-nav__item, .w-nav-header__item, .w-nav-footer__item {
+.w-nav__item, .w-nav--header__item, .w-nav--footer__item {
   display: inline-block;
   line-height: 30px;
   padding: 0 1%;
   cursor: pointer;
   background: gray; }
-  .w-nav__item:hover .w-drop-menu, .w-nav-header__item:hover .w-drop-menu, .w-nav-footer__item:hover .w-drop-menu {
+  .w-nav__item:hover .w-drop-menu, .w-nav--header__item:hover .w-drop-menu, .w-nav--footer__item:hover .w-drop-menu {
     max-height: 100%; }
 
-.w-nav__link, .w-nav-header__link, .w-nav-footer__link {
+.w-nav__link, .w-nav--header__link, .w-nav--footer__link {
   height: 100%;
   display: block; }
 
@@ -318,3 +318,16 @@ body {
     float: right;
     cursor: pointer;
     background: #ccc; }
+
+.w-slider {
+  overflow: hidden;
+  max-width: 500px; }
+  .w-slider__track {
+    position: relative;
+    display: block;
+    overflow: hidden;
+    width: 1000%; }
+  .w-slider__slide {
+    float: left;
+    width: 100%;
+    max-width: 500px; }
