@@ -1,1 +1,1 @@
-$(document).ready(function(){var e=$(".w-slider__track"),n=$(".w-slider__slide"),t=n.width(),i=n.length,a=1,r=3e3,l=1e3;setInterval(function(){e.animate({"margin-left":"-="+t},l,function(){a++,a===i&&(a=1,e.css("margin-left",0))})},r)});
+$(document).ready(function(){});

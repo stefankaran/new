@@ -1,22 +1,2 @@
 //----- Slider
 .w-slider {}
-
-.w-slider {
-  overflow: hidden;
-  @extend %center-block;
-  max-width: 500px;
-  &__track {
-    position: relative;
-    display: block;
-    overflow: hidden;
-    width: 1000%;
-  }
-  &__slide {
-    float: left;
-    width: 100%;
-    max-width: 500px;
-  }
-  &__img {
-    // width: 500px;
-  }
-}

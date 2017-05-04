@@ -173,7 +173,7 @@ html {
 body {
   font-family: "", Arial, Helvetica, Tahoma, sans-serif; }
 
-.l-wrap, .l-wrap--site, .l-wrap--page, .w-slider {
+.l-wrap, .l-wrap--site, .l-wrap--page {
   display: block;
   margin-left: auto;
   margin-right: auto; }
@@ -218,6 +218,9 @@ body {
 
 .b-media {
   overflow: hidden; }
+  .b-media-list {
+    width: 100%;
+    overflow: hidden; }
   .b-media__content {
     width: 50%;
     float: left; }
@@ -235,13 +238,12 @@ body {
 
 .b-quote {
   font-style: italic;
-  border-left: 1px solid #808080;
-  color: #808080;
-  padding-left: 1em;
-  margin-bottom: 1em; }
+  border-left: 1px solid;
+  padding-left: 1rem;
+  margin-bottom: 1rem; }
   .b-quote__cite {
     display: inline-block;
-    margin-top: 10px; }
+    margin-top: 1rem; }
 
 .w-nav__items, .w-nav--header__items, .w-nav--footer__items {
   display: table;
@@ -250,10 +252,9 @@ body {
 
 .w-nav__item, .w-nav--header__item, .w-nav--footer__item {
   display: inline-block;
-  line-height: 30px;
+  line-height: 3rem;
   padding: 0 1%;
-  cursor: pointer;
-  background: gray; }
+  cursor: pointer; }
   .w-nav__item:hover .w-drop-menu, .w-nav--header__item:hover .w-drop-menu, .w-nav--footer__item:hover .w-drop-menu {
     max-height: 100%; }
 
@@ -278,12 +279,6 @@ body {
   .w-drop-menu__column {
     width: 25%;
     padding: 0 2%; }
-    .w-drop-menu__column:first-child {
-      padding-left: 0 !important;
-      margin-left: 0 !important; }
-    .w-drop-menu__column:last-child {
-      padding-right: 0 !important;
-      margin-right: 0 !important; }
   .w-drop-menu__link {
     float: left;
     clear: both; }
@@ -297,19 +292,19 @@ body {
   display: inline-block;
   background-color: #ccc; }
   .w-pagination__item:not(:last-child) {
-    margin-right: 5px; }
+    margin-right: .5rem; }
   .w-pagination__item.current {
     background-color: red; }
 
 .w-pagination__link {
-  padding: 5px 10px;
+  padding: .5rem 1rem;
   display: block; }
 
 .w-search {
   display: inline-block; }
   .w-search input {
     border: none;
-    padding: 7px;
+    padding: .7rem;
     font-size: 1rem; }
   .w-search__form {
     border: 1px solid #ccc;
@@ -318,16 +313,3 @@ body {
     float: right;
     cursor: pointer;
     background: #ccc; }
-
-.w-slider {
-  overflow: hidden;
-  max-width: 500px; }
-  .w-slider__track {
-    position: relative;
-    display: block;
-    overflow: hidden;
-    width: 1000%; }
-  .w-slider__slide {
-    float: left;
-    width: 100%;
-    max-width: 500px; }

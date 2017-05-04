@@ -23,8 +23,8 @@ Thumbs.db
 # Build Systems #
 ######################
 node_modules/
-gulpfile.js
-package.json
+# gulpfile.js
+# package.json
 app/bower.json
 app/bower_components/
 #app/assets/

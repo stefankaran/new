@@ -1,10 +1,10 @@
 //----- Media list & media object
 .b-media {
   overflow: hidden;
-  // &-list {
-  //   width: 100%;
-  //   overflow: hidden;
-  // }
+  &-list { // Wrap around c-media items
+    width: 100%;
+    overflow: hidden;
+  }
   &__content {
     width: percentage(1/2);
     float: left; //----- set float: right; - If you want to put image on the left side.

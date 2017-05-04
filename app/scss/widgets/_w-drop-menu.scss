@@ -12,8 +12,6 @@
   }
   &__column {
     width: percentage(1/4);
-    @include first-last(padding-margin);
-    // @extend %hide-on--mobile;
     padding: 0 2%;
   }
   &__item {}

@@ -10,14 +10,14 @@
     display: inline-block;
     background-color: #ccc;
     &:not(:last-child) {
-      margin-right: 5px;
+      margin-right: .5rem;
     }
     &.current {
       background-color: red;
     }
   }
   &__link {
-    padding: 5px 10px;
+    padding: .5rem 1rem;
     display: block;
   }
 }

@@ -1,27 +1,24 @@
 //----- Variables / Colors
-$colors: (
-  black         : #000,
-  white         : #fff,
 
-  brand: ( //----- Brand colors
-    primary     : black,
-    secondary   : white
-  ),
+$brand-primary     : #000;
+$brand-secondary   : #fff;
+
+$colors: (
   link: ( //----- Link colors
-    text        : black,
-    text-hover  : white
+    text        : $brand-primary,
+    text-hover  : $brand-secondary
   ),
   text: ( //----- Text colors
-    primary     : black,
-    secondary   : white
+    primary     : $brand-primary,
+    secondary   : $brand-secondary
   ),
   border: ( //----- Border colors
-    primary     : black,
-    secondary   : white
+    primary     : $brand-primary,
+    secondary   : $brand-secondary
   ),
   error: ( //----- Error colors
-    background  : black,
-    text        : white
+    background  : $brand-primary,
+    text        : $brand-secondary
   ),
   socials: ( //----- Socials colors
     facebook    : #3B5998,
